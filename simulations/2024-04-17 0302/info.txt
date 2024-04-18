@@ -1,0 +1,30 @@
+Simulation info : 
+Nb eps: 500
+Exploration decay: 0.95
+Gamma: 0.95
+Base score: 5
+Game: Catcher
+Target updated every : 4
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_4 (Conv2D)           (None, 12, 12, 32)        320       
+                                                                 
+ conv2d_5 (Conv2D)           (None, 12, 12, 64)        18496     
+                                                                 
+ flatten_2 (Flatten)         (None, 9216)              0         
+                                                                 
+ dense_4 (Dense)             (None, 128)               1179776   
+                                                                 
+ dense_5 (Dense)             (None, 128)               16512     
+                                                                 
+ dropout_2 (Dropout)         (None, 128)               0         
+                                                                 
+ action_values (Dense)       (None, 3)                 387       
+                                                                 
+=================================================================
+Total params: 1215491 (4.64 MB)
+Trainable params: 1215491 (4.64 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
