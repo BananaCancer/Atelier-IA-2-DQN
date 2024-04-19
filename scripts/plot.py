@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-FILE_PATH = os.path.join("simulations", "2024-04-17 0302", 'output.csv')
+FILE_PATH = os.path.join("simulations", "2024-04-19 0202", 'data.csv')
 
 # Read the CSV file
 df = pd.read_csv(FILE_PATH)
@@ -38,7 +38,7 @@ plt.bar(range(num_batches), red_counts, color='red', label=f'Score = -{score}')
 plt.bar(range(num_batches), blue_counts, color='blue', label=f'Score = {score}', bottom=red_counts)
 plt.xlabel('Batch Number')
 plt.ylabel('Cumulative Count')
-plt.title('Cumulative Bar Plot of Scores per Batch')
+plt.title('Cumulative Bar Plot of Scores per Batch of 10 simulations')
 plt.legend()
 
 # Show plot

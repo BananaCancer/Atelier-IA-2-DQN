@@ -1,5 +1,5 @@
 Simulation info : 
-Nb eps: 500
+Nb eps: 300
 Exploration decay: 0.95
 Gamma: 0.95
 Base score: 5
