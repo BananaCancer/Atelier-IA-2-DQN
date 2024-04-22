@@ -13,7 +13,7 @@ agent = dqn.DQN(
 
 subdirectory_path = "G:\Shared drives\Systems\Python\Experimental\DeepQLearning\Experiment 3\models"
 
-agent.load(f'{subdirectory_path}\{model}.h5')
+agent.load(f'{subdirectory_path}\{model}.keras')
 
 state = env.reset()
 state = np.expand_dims(state, axis=0)

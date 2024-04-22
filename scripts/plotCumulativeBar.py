@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-FILE_PATH = os.path.join("simulations", "2024-04-19 0202", 'data.csv')
+FILE_PATH = os.path.join("simulations", "2024-04-21 0227", 'data.csv')
 
 # Read the CSV file
 df = pd.read_csv(FILE_PATH)
